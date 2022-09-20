@@ -1,0 +1,53 @@
+proxies:
+- name: TJ
+  server: 104.17.2.81
+  port: 443
+  type: trojan
+  password: 226ea710-307f-11ed-9866-1239d0255272
+  network: ws
+  sni: sgovh-trojan.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: sgovh-trojan.bonds.id
+- name: TJ2
+  server: 104.26.5.10
+  port: 443
+  type: trojan
+  password: 35edba90-30ee-11ed-abf5-1239d0255272
+  network: ws
+  sni: id2-trojan.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: id2-trojan.bonds.id
+- name: idtj
+  server: 104.17.2.81
+  port: 443
+  type: trojan
+  password: 7a49a220-37d3-11ed-9229-1239d0255272
+  network: ws
+  sni: idtj-ikd.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: idtj-ikd.bonds.id
+- name: cdn
+  server: cdn.onlymega.com
+  port: 443
+  type: trojan
+  password: 226ea710-307f-11ed-9866-1239d0255272
+  network: ws
+  sni: sgovh-trojan.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: sgovh-trojan.bonds.id
