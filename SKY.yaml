@@ -1,0 +1,38 @@
+proxies:
+- name: TJ2
+  server: 104.20.74.141
+  port: 443
+  type: trojan
+  password: 01e4ce70-6168-11ed-bad4-1239d0255272
+  network: ws
+  sni: idtj-ikd.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: idtj-ikd.bonds.id
+- name: TJ3
+  server: 104.20.74.141
+  port: 443
+  type: trojan
+  password: 01e4ce70-6168-11ed-bad4-1239d0255272
+  network: ws
+  sni: idtj-ikd.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: idtj-ikd.bonds.id
+- name: Id new
+  type: trojan
+  server: 104.20.74.141
+  port: 443
+  password: 2da6d360-616c-11ed-b707-1239d0255272
+  udp: true
+  sni: idtj-ikd.bonds.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/howdy"
