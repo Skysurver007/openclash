@@ -1,5 +1,5 @@
 proxies:
-- name: TJ2
+- name: HOWDY
   server: 104.20.74.141
   port: 443
   type: trojan
@@ -12,7 +12,7 @@ proxies:
     path: /howdy
   headers:
     Host: idtj-ikd.bonds.id
-- name: TJ3
+- name: HOWDY 2
   server: 104.20.74.141
   port: 443
   type: trojan
@@ -25,7 +25,7 @@ proxies:
     path: /howdy
   headers:
     Host: idtj-ikd.bonds.id
-- name: Id new
+- name: HOWDY 3
   type: trojan
   server: 104.20.74.141
   port: 443
